@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2ACBB71EBB7AF700CA4249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2ACBB61EBB7AF700CA4249 /* AppDelegate.swift */; };
+		0B2ACBB91EBB7AF700CA4249 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2ACBB81EBB7AF700CA4249 /* ViewController.swift */; };
+		0B2ACBBC1EBB7AF700CA4249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2ACBBA1EBB7AF700CA4249 /* Main.storyboard */; };
+		0B2ACBBE1EBB7AF700CA4249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2ACBBD1EBB7AF700CA4249 /* Assets.xcassets */; };
+		0B2ACBCC1EBB7AF800CA4249 /* SWE_BotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2ACBCB1EBB7AF800CA4249 /* SWE_BotTests.swift */; };
+		0B2ACBD71EBB7AF800CA4249 /* SWE_BotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2ACBD61EBB7AF800CA4249 /* SWE_BotUITests.swift */; };
+		0B2ACBE91EBB858F00CA4249 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2ACBE81EBB858F00CA4249 /* Launch Screen.storyboard */; };
+		0B2ACBEC1EBB8A2600CA4249 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B2ACBEB1EBB8A2600CA4249 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B2ACBC81EBB7AF800CA4249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2ACBAB1EBB7AF600CA4249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2ACBB21EBB7AF600CA4249;
+			remoteInfo = "SWE Bot";
+		};
+		0B2ACBD31EBB7AF800CA4249 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B2ACBAB1EBB7AF600CA4249 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2ACBB21EBB7AF600CA4249;
+			remoteInfo = "SWE Bot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B2ACBB31EBB7AF600CA4249 /* SWE Bot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SWE Bot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2ACBB61EBB7AF700CA4249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B2ACBB81EBB7AF700CA4249 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B2ACBBB1EBB7AF700CA4249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B2ACBBD1EBB7AF700CA4249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B2ACBC21EBB7AF700CA4249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2ACBC71EBB7AF800CA4249 /* SWE BotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWE BotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2ACBCB1EBB7AF800CA4249 /* SWE_BotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWE_BotTests.swift; sourceTree = "<group>"; };
+		0B2ACBCD1EBB7AF800CA4249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2ACBD21EBB7AF800CA4249 /* SWE BotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SWE BotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2ACBD61EBB7AF800CA4249 /* SWE_BotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWE_BotUITests.swift; sourceTree = "<group>"; };
+		0B2ACBD81EBB7AF900CA4249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2ACBE81EBB858F00CA4249 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0B2ACBEB1EBB8A2600CA4249 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		0B2ACBED1EBB8A5B00CA4249 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = SOURCE_ROOT; };
+		0B2ACBF01EBB9FD000CA4249 /* Serial-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Serial-Bridging-Header.h"; path = "../../HM10-BluetoothSerial-iOS-master/HM10 Serial/Serial-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2ACBB01EBB7AF600CA4249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBC41EBB7AF800CA4249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBCF1EBB7AF800CA4249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2ACBAA1EBB7AF600CA4249 = {
+			isa = PBXGroup;
+			children = (
+				0B2ACBB51EBB7AF700CA4249 /* SWE Bot */,
+				0B2ACBCA1EBB7AF800CA4249 /* SWE BotTests */,
+				0B2ACBD51EBB7AF800CA4249 /* SWE BotUITests */,
+				0B2ACBB41EBB7AF600CA4249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B2ACBB41EBB7AF600CA4249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B2ACBB31EBB7AF600CA4249 /* SWE Bot.app */,
+				0B2ACBC71EBB7AF800CA4249 /* SWE BotTests.xctest */,
+				0B2ACBD21EBB7AF800CA4249 /* SWE BotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B2ACBB51EBB7AF700CA4249 /* SWE Bot */ = {
+			isa = PBXGroup;
+			children = (
+				0B2ACBB61EBB7AF700CA4249 /* AppDelegate.swift */,
+				0B2ACBB81EBB7AF700CA4249 /* ViewController.swift */,
+				0B2ACBED1EBB8A5B00CA4249 /* MBProgressHUD.h */,
+				0B2ACBEB1EBB8A2600CA4249 /* MBProgressHUD.m */,
+				0B2ACBBA1EBB7AF700CA4249 /* Main.storyboard */,
+				0B2ACBBD1EBB7AF700CA4249 /* Assets.xcassets */,
+				0B2ACBE81EBB858F00CA4249 /* Launch Screen.storyboard */,
+				0B2ACBC21EBB7AF700CA4249 /* Info.plist */,
+				0B2ACBF01EBB9FD000CA4249 /* Serial-Bridging-Header.h */,
+			);
+			path = "SWE Bot";
+			sourceTree = "<group>";
+		};
+		0B2ACBCA1EBB7AF800CA4249 /* SWE BotTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2ACBCB1EBB7AF800CA4249 /* SWE_BotTests.swift */,
+				0B2ACBCD1EBB7AF800CA4249 /* Info.plist */,
+			);
+			path = "SWE BotTests";
+			sourceTree = "<group>";
+		};
+		0B2ACBD51EBB7AF800CA4249 /* SWE BotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B2ACBD61EBB7AF800CA4249 /* SWE_BotUITests.swift */,
+				0B2ACBD81EBB7AF900CA4249 /* Info.plist */,
+			);
+			path = "SWE BotUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2ACBB21EBB7AF600CA4249 /* SWE Bot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2ACBDB1EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE Bot" */;
+			buildPhases = (
+				0B2ACBAF1EBB7AF600CA4249 /* Sources */,
+				0B2ACBB01EBB7AF600CA4249 /* Frameworks */,
+				0B2ACBB11EBB7AF600CA4249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SWE Bot";
+			productName = "SWE Bot";
+			productReference = 0B2ACBB31EBB7AF600CA4249 /* SWE Bot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B2ACBC61EBB7AF800CA4249 /* SWE BotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2ACBDE1EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE BotTests" */;
+			buildPhases = (
+				0B2ACBC31EBB7AF800CA4249 /* Sources */,
+				0B2ACBC41EBB7AF800CA4249 /* Frameworks */,
+				0B2ACBC51EBB7AF800CA4249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2ACBC91EBB7AF800CA4249 /* PBXTargetDependency */,
+			);
+			name = "SWE BotTests";
+			productName = "SWE BotTests";
+			productReference = 0B2ACBC71EBB7AF800CA4249 /* SWE BotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B2ACBD11EBB7AF800CA4249 /* SWE BotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2ACBE11EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE BotUITests" */;
+			buildPhases = (
+				0B2ACBCE1EBB7AF800CA4249 /* Sources */,
+				0B2ACBCF1EBB7AF800CA4249 /* Frameworks */,
+				0B2ACBD01EBB7AF800CA4249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2ACBD41EBB7AF800CA4249 /* PBXTargetDependency */,
+			);
+			name = "SWE BotUITests";
+			productName = "SWE BotUITests";
+			productReference = 0B2ACBD21EBB7AF800CA4249 /* SWE BotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B2ACBAB1EBB7AF600CA4249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Laurel Parsley";
+				TargetAttributes = {
+					0B2ACBB21EBB7AF600CA4249 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					0B2ACBC61EBB7AF800CA4249 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B2ACBB21EBB7AF600CA4249;
+					};
+					0B2ACBD11EBB7AF800CA4249 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0B2ACBB21EBB7AF600CA4249;
+					};
+				};
+			};
+			buildConfigurationList = 0B2ACBAE1EBB7AF600CA4249 /* Build configuration list for PBXProject "SWE Bot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B2ACBAA1EBB7AF600CA4249;
+			productRefGroup = 0B2ACBB41EBB7AF600CA4249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B2ACBB21EBB7AF600CA4249 /* SWE Bot */,
+				0B2ACBC61EBB7AF800CA4249 /* SWE BotTests */,
+				0B2ACBD11EBB7AF800CA4249 /* SWE BotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2ACBB11EBB7AF600CA4249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2ACBBE1EBB7AF700CA4249 /* Assets.xcassets in Resources */,
+				0B2ACBE91EBB858F00CA4249 /* Launch Screen.storyboard in Resources */,
+				0B2ACBBC1EBB7AF700CA4249 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBC51EBB7AF800CA4249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBD01EBB7AF800CA4249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2ACBAF1EBB7AF600CA4249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2ACBB91EBB7AF700CA4249 /* ViewController.swift in Sources */,
+				0B2ACBEC1EBB8A2600CA4249 /* MBProgressHUD.m in Sources */,
+				0B2ACBB71EBB7AF700CA4249 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBC31EBB7AF800CA4249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2ACBCC1EBB7AF800CA4249 /* SWE_BotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B2ACBCE1EBB7AF800CA4249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2ACBD71EBB7AF800CA4249 /* SWE_BotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B2ACBC91EBB7AF800CA4249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2ACBB21EBB7AF600CA4249 /* SWE Bot */;
+			targetProxy = 0B2ACBC81EBB7AF800CA4249 /* PBXContainerItemProxy */;
+		};
+		0B2ACBD41EBB7AF800CA4249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2ACBB21EBB7AF600CA4249 /* SWE Bot */;
+			targetProxy = 0B2ACBD31EBB7AF800CA4249 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B2ACBBA1EBB7AF700CA4249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B2ACBBB1EBB7AF700CA4249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2ACBD91EBB7AF900CA4249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B2ACBDA1EBB7AF900CA4249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B2ACBDC1EBB7AF900CA4249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "SWE Bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-Bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWE Bot/SWE Bot-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0B2ACBDD1EBB7AF900CA4249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "SWE Bot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-Bot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWE Bot/SWE Bot-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0B2ACBDF1EBB7AF900CA4249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWE BotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-BotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWE Bot.app/SWE Bot";
+			};
+			name = Debug;
+		};
+		0B2ACBE01EBB7AF900CA4249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SWE BotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-BotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWE Bot.app/SWE Bot";
+			};
+			name = Release;
+		};
+		0B2ACBE21EBB7AF900CA4249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SWE BotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-BotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SWE Bot";
+			};
+			name = Debug;
+		};
+		0B2ACBE31EBB7AF900CA4249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "SWE BotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "LarlOLarl.SWE-BotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SWE Bot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2ACBAE1EBB7AF600CA4249 /* Build configuration list for PBXProject "SWE Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ACBD91EBB7AF900CA4249 /* Debug */,
+				0B2ACBDA1EBB7AF900CA4249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B2ACBDB1EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE Bot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ACBDC1EBB7AF900CA4249 /* Debug */,
+				0B2ACBDD1EBB7AF900CA4249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B2ACBDE1EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE BotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ACBDF1EBB7AF900CA4249 /* Debug */,
+				0B2ACBE01EBB7AF900CA4249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0B2ACBE11EBB7AF900CA4249 /* Build configuration list for PBXNativeTarget "SWE BotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2ACBE21EBB7AF900CA4249 /* Debug */,
+				0B2ACBE31EBB7AF900CA4249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B2ACBAB1EBB7AF600CA4249 /* Project object */;
+}
